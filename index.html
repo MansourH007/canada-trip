@@ -5,38 +5,129 @@
             Canada Trip
         </title>
     <style>
-    body{
-    text-align: center;}
-    h1{
-        color:rgb(9, 9, 112);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 2rem;
-    }
-    p{color:grey;
-    font-family: Arial, Helvetica, sans-serif
-    };
-   .contaier{width: 720px;
-   height: 400px;
-   margin: 0 auto;
-   display: flex;
-   border: 2px solid #333
-   }
+    body {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 96px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
 </style>
     </head>
     <body>
-
-            <nav class="navbar">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="restaurants.html">Restaurants</a>
-         
-               </nav>
-                 <h1>Places To Visit in Canada</h1>
-                 <p>From the vibrant streets of Toronto to the majestic snow-capped peaks of the Canadian Rockies, our northern neighbor offers a plethora of vacation destinations that exude beauty throughout the year. Choosing the ideal spot for your next getaway can be challenging. Hence, U.S. News has taken into account various criteria including affordability, entertainment offerings, hotel and resort diversity, alongside user feedback and expert insights, to curate this list of Canada's top destinations to visit.</p>
-                 <div class="container">
-                    <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/08/Yoho-National-Park1.jpg">
-                    <div>
-      
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <h1>Canada Trip Guide</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="restaurants.html">Restaurants</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <main>
+                <div class="content">
+                    <div class="section">
+                        <h2>Welcome to Canada Trip Guide</h2>
+                        <p>Plan your next adventure in Canada with our comprehensive travel guide. Explore the best destinations, discover top attractions, and find helpful tips for your trip.</p>
+                    </div>
+    
+                    <div class="section">
+                        <img src="canada.jpg" alt="Canada" class="image">
+                    </div>
+    
+                    <div class="section">
+                        <h2>Explore Canada's Beauty</h2>
+                        <p>From the stunning landscapes of Banff National Park to the vibrant culture of Montreal, Canada offers a diverse range of experiences for travelers.</p>
+                    </div>
+    
+                    <div class="section">
+                        <h2>Plan Your Journey</h2>
+                        <p>Use our resources to create the perfect itinerary for your Canadian adventure. Whether you're interested in outdoor activities, city sightseeing, or culinary delights, we've got you covered.</p>
+                    </div>
+                </div>
+            </main>
+    
+            <footer>
+                <p>&copy; 2024 Canada Trip Guide</p>
+            </footer>
+        </div>
     </body>
 
 
