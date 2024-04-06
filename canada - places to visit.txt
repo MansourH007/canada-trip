@@ -1,4 +1,4 @@
-These are the places to visit in Canada
+#These are the places to visit in Canada
 Banff National Park, Alberta
 Whistler, British Columbia
 Prince Edward Island
@@ -7,4 +7,8 @@ Montreal, Quebec
 Jasper National Park
 Fundy National Park, New Brunswick
 Niagara-on-the-Lake, Ontario
+This is new - Using VS Code
+  Some new txt here
+  text new b 
+  da
   
